@@ -12,7 +12,8 @@
 
     <link rel="stylesheet" type="text/css" href="main.css">
 
-    
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+
 
     
 
@@ -24,30 +25,38 @@
     <div class="container">
         <main>
             <h1>Text analzyer</h1>
-            <p>Paste in text below, submit, and get some basic stats back.</p>
+            <div class="pContain">
+            <p class="sub">Paste in text below, submit, and get some basic stats back.</p>
+            </div>
             <form>
-                <div>
+                <div class="col">
                     <label for="user-text">Text to analyze</label>
-                    <textarea cols="60" rows="20" id="user-text" name="user-text" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." required></textarea>
+                    <textarea  rows="20" id="user-text" name="user-text" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." require class="js-userInput"></textarea>
                 </div>
+
+                <div class="col">
+                 <dl class="hidden text-report">
+                <dt>Word count</dt>
+                <dd class="js-another"></dd>
+
+                <dt>Unique word count</dt>
+                <dd class="js-unique"></dd>
+
+                <dt>Average word length</dt>
+                <dd class="js-sLength"></dd>
+
+                <dt>Average sentence length</dt>
+                <dd class="js-sent"></dd>
+            </dl>
+                </div>
+
+
                 <div>
-                    <button type="submit">Analyze it!</button>
+                    <button type="submit" class="calcButton" onclick="return false">Analyze it!</button>
                 </div>
             </form>
 
-            <dl class="hidden text-report">
-                <dt>Word count</dt>
-                <dd></dd>
-
-                <dt>Unique word count</dt>
-                <dd></dd>
-
-                <dt>Average word length</dt>
-                <dd></dd>
-
-                <dt>Average sentence length</dt>
-                <dd></dd>
-            </dl>
+           
         </main>
     </div>
 
