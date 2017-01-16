@@ -39,19 +39,6 @@ label {
   content: ": ";
 }
 
-h1 {
-
-	text-align: center;
-  font-size: 40px;
-  line-height: 40px;
-  margin: 0;
-  background-color: #7E8AA2;
-  color: white;
-  text-transform: uppercase;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
 button {
 	font-size: 30px;
   font-weight: bold;
