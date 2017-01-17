@@ -6,7 +6,7 @@ $('h1').animate({
     fontSize: "3em",
     borderWidth: "10px"
   }, 2100 );
-})
+
 
 
 // WORD COUNT , WORD LENGTH, SENT LENGTH
@@ -58,7 +58,7 @@ $(".js-another").text(words);
   }
 
 });     
-
+});
 
 
 
