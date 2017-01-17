@@ -59,8 +59,6 @@ $(".js-another").text(words);
 
 });     
 
-}); 
-
 
 
 
