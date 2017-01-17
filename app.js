@@ -5,7 +5,7 @@ $('h1').animate({
     opacity: 1,
     fontSize: "3em",
     borderWidth: "10px"
-  }, 2100 );
+  }, 1900 );
 
 
 
